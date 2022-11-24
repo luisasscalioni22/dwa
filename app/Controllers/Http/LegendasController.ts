@@ -10,7 +10,7 @@ export default class LegendaController {
     const legenda = await Legenda
       .query()
       .preload('legendaTopic')
-      .preload('User')
+      .preload('user')
       .orderBy('id')
     return legenda
   }
@@ -62,3 +62,4 @@ export default class LegendaController {
     }
   }
 }
+"--ignore-ts-errors"

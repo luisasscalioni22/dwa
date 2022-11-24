@@ -46,3 +46,4 @@ export default class TopicsController {
     }
   }
 }
+"--ignore-ts-errors"
