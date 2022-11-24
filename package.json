@@ -2,6 +2,7 @@
   "name": "luisa",
   "version": "v18.12.1",
   "private": true,
+  "node": "18.x",
   "scripts": {
     "node": "v18.12.1",
     "dev": "node ace serve --watch",
