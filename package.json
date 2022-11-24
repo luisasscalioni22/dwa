@@ -1,10 +1,9 @@
 {
   "name": "luisa",
-  "version": "v18.12.1",
+  "version": "1.0.0",
   "private": true,
-  "node": "18.x",
   "scripts": {
-    "node": "v18.12.1",
+    "version": "1.0.0",
     "dev": "node ace serve --watch",
     "build": "node ace build --production",
     "start": "node server.js"
