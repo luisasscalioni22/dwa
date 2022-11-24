@@ -1,0 +1,14 @@
+######### Cadastro Tópico POST http://127.0.0.1:3333/topics HTTP/1.1
+
+Content-Type: application/json Authorization: Bearer NQ.J-dfh1b2YvSsYDbbppf5J3GLYyndwj5Po-C9UTHK_pxzcv-kMU0OuZ8Dk3wu
+{ "name": "Harry Potter" }
+
+######### Listar todos os Tópico GET http://127.0.0.1:3333/topics HTTP/1.1 Content-Type: application/json Authorization: Bearer NQ.J-dfh1b2YvSsYDbbppf5J3GLYyndwj5Po-C9UTHK_pxzcv-kMU0OuZ8Dk3wu
+
+######### Listar Tópico específico GET http://127.0.0.1:3333/topics/1 HTTP/1.1 Content-Type: application/json Authorization: Bearer NQ.J-dfh1b2YvSsYDbbppf5J3GLYyndwj5Po-C9UTHK_pxzcv-kMU0OuZ8Dk3wu
+
+######### Alterar Tópico PUT http://127.0.0.1:3333/topics/1 HTTP/1.1 Content-Type: application/json Authorization: Bearer NQ.J-dfh1b2YvSsYDbbppf5J3GLYyndwj5Po-C9UTHK_pxzcv-kMU0OuZ8Dk3wu
+
+{ "name": "fantasia" }
+
+######### Apagar Tópico DELETE http://127.0.0.1:3333/topics/1 HTTP/1.1 Content-Type: application/json Authorization: Bearer NQ.J-dfh1b2YvSsYDbbppf5J3GLYyndwj5Po-C9UTHK_pxzcv-kMU0OuZ8Dk3wu
