@@ -2,7 +2,7 @@
   "name": "luisa",
   "version": "1.0.0",
   "private": true,
-  "engines" : { "node" : ">=0.12" } 
+  "engines" : { "node" : ">=0.12" }, 
   "scripts": {
     "version": "1.0.0",
     "dev": "node ace serve --watch",
